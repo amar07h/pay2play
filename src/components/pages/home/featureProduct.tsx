@@ -12,7 +12,7 @@ type NavbarinterfaceProps = {
 export const  featureProduct: FC<NavbarinterfaceProps> = ({ product }) => {
 
   return (
-    <section className="py-20 px-4 relative overflow-hidden">
+    <section className="py-4 px-4 relative overflow-hidden">
       {/* Background elements */}
 
       <div
@@ -28,7 +28,7 @@ export const  featureProduct: FC<NavbarinterfaceProps> = ({ product }) => {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gaming-cyan/30 to-transparent"></div>
       <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gaming-cyan/30 to-transparent"></div>
 
-      <div className="container mx-auto z-10 relative">
+      <div className=" mx-auto z-10 relative">
         {/* Section header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>

@@ -16,7 +16,7 @@ export default function RecentlyViewed() {
                 null
             ) : 
 
-   <section className="py-20 px-4 relative overflow-hidden">
+   <section className="px-4 relative overflow-hidden">
       {/* Background elements */}
 
       <div
@@ -32,9 +32,9 @@ export default function RecentlyViewed() {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gaming-cyan/30 to-transparent"></div>
       <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gaming-cyan/30 to-transparent"></div>
 
-      <div className="container mx-auto z-10 relative">
+      <div className=" mx-auto z-10 relative">
         {/* Section header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-6">
           <div>
             <span className="text-gaming-cyan font-medium mb-2 inline-block">
               Recently Viewed
