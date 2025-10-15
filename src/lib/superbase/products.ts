@@ -6,7 +6,6 @@ import {
   homeProduct,
   SingelProductModel,
   ProductModel,
-  ProductAd,
 } from "@/lib/types/products";
 import { ResponseType } from "@/lib/types/layouts";
 import { v4 as uuidv4 } from "uuid";
