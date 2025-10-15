@@ -1,0 +1,17 @@
+{
+  "Success": "add successfully",
+  "FileUploadDescritpion": "Upload images for your product.",
+  "FileUploadTitle": "Product Media",
+  "FileUploadLable": "Featured Image URL",
+  "FileUploadForm": "Or use the image uploader below",
+  "BasicInformationTitle": "Basic Information",
+  "BasicInformationDescription": "Enter the essential details about your product.",
+  "BasicInformationProductTitle": "Product Title",
+  "BasicInformationProductLable": " The name displayed to customers",
+  "BasicInformationProductHandle": "Product Handle",
+  "BasicInformationProductHandleLable": "Used in URLs (auto-generated from title)",
+  "BasicInformationProductCategory": "SubCategory",
+  "BasicInformationProductAvailable": "Available for sale",
+  "BasicInformationProductDescritpion": "Product Description",
+  "BasicInformationProductVisibilityLable": "Product will be visible and purchasable"
+}
