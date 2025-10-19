@@ -50,7 +50,13 @@ const cartId = (await cookies()).get('cartId')?.value;
         <meta name="twitter:description" content="GameStore" />
         <meta name="twitter:image" content="/twitter-image.jpg" />
           {/* Meta Pixel */}
-   <Script
+  
+
+        <ClientTracking />
+      </Head>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <StrictMode>
+           <Script
           id="meta-pixel"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -68,11 +74,6 @@ const cartId = (await cookies()).get('cartId')?.value;
             `
           }}
         />
-
-        <ClientTracking />
-      </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <StrictMode>
               <CartProvider cartId={cartId}>            
               { responce.length > 0 ?
                 <Navbar menu={responce} isAuthed={false}/>:null
