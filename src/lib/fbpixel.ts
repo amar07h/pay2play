@@ -1,9 +1,9 @@
 export const pageView = () => {
-  // @ts-ignore
+// @ts-expect-error: fbq might not exist on window at build time
   window.fbq('track', 'PageView');
 };
 
 export const event = (name: string, options = {}) => {
-  // @ts-ignore
+// @ts-expect-error: fbq might not exist on window at build time
   window.fbq('track', name, options);
 };
